@@ -1,0 +1,17 @@
+--[[
+	� CloudSixteen.com do not share, re-distribute or modify
+	without permission of its author (kurozael@gmail.com).
+--]]
+
+DEFINE_BASECLASS("base_gmodentity");
+
+ENT.Type = "anim";
+ENT.Author = "kurozael";
+ENT.PrintName = "Взрывчатка";
+ENT.Category = "CW:HL2RP";
+
+ENT.Spawnable = true;
+ENT.AdminSpawnable = true;
+
+ENT.UsableInVehicle = true;
+ENT.PhysgunDisabled = true;
